@@ -1,0 +1,14 @@
+$title: #FFF;
+$default: rgba(86, 23, 175, 0.344);
+
+%title-font {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+
+@function max($numbers...) {
+	@return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+	@return m#{i}n(#{$numbers});
+}
